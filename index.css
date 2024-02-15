@@ -1,0 +1,71 @@
+.sticky-notes {
+    margin-top: 100px;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+/* Styling for the first square box */
+.box {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 0px 7px 7px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 250px 15px;
+    border-bottom-left-radius: 20px 115px;
+    border-bottom-right-radius: 105px 15px;
+}
+
+/* Styling for the second square box (rotated) */
+.rotated-box {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    transform: rotate(30deg);
+    border-top-left-radius: 250px 15px;
+    border-bottom-left-radius: 20px 115px;
+    border-bottom-right-radius: 105px 15px;
+    z-index: -1;
+}
+
+.color1 {
+    background: radial-gradient(circle, #FFF8D0, #EAC542);
+    border: 2px solid #EAC542;
+}
+
+.color2 {
+    background: radial-gradient(circle, #DBA9FE, #C077FC);
+    border: 2px solid #C077FC;
+}
+
+.color3 {
+    background: radial-gradient(circle, #FFAAD3, #DF5392);
+    border: 2px solid #DF5392;
+}
+
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the line between the heading and paragraph */
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto;
+}
+
+.pin-img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -35px;
+}
